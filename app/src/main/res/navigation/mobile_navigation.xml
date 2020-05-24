@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.supercalculator.ui.home.CalculatorFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/calculator" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.supercalculator.ui.gallery.LengthConverterFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/converter" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.supercalculator.ui.slideshow.WeightConverterFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/converter" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.supercalculator.ui.tools.TemperatureFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/tempconverter" />
+
+</navigation>

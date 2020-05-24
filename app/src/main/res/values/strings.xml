@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Super Calculator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Super Calculator</string>
+    <string name="nav_header_subtitle">By Anton Toneyev</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Calculator</string>
+    <string name="menu_gallery">Length Converter</string>
+    <string name="menu_slideshow">Weight Converter</string>
+    <string name="menu_tools">Temperature Converter</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string-array name="length">
+        <item>Millimetres</item>
+        <item>Metres</item>
+        <item>Kilometres</item>
+        <item>Decimetres</item>
+        <item>Centimetres</item>
+        <item>Micrometres</item>
+        <item>Nanometres</item>
+    </string-array>
+
+    <string-array name="weight">
+        <item>Tonnes</item>
+        <item>Kilograms</item>
+        <item>Grams</item>
+        <item>Milligrams</item>
+        <item>Centners</item>
+        <item>Pounds</item>
+        <item>Ounces</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>

@@ -58,10 +58,8 @@ public class CalculatorFragment extends Fragment {
     Double ans = null;
 
 
-    private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel = ViewModelProviders.of(this).get(HomeViewModel.class);
         final View root = inflater.inflate(R.layout.calculator, container, false);
 
         clipboardManager = (ClipboardManager) getContext().getSystemService(CLIPBOARD_SERVICE);

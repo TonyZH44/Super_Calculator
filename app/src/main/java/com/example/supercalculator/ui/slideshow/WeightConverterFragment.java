@@ -16,10 +16,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.example.supercalculator.R;
-import com.example.supercalculator.ui.home.HomeViewModel;
 
 import static android.content.Context.CLIPBOARD_SERVICE;
 
@@ -38,11 +36,10 @@ public class WeightConverterFragment extends Fragment {
     ClipboardManager clipboardManager;
     ClipData clipData;
 
-    private HomeViewModel homeViewModel;
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel = ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.converter, container, false);
 
         clipboardManager = (ClipboardManager) getContext().getSystemService(CLIPBOARD_SERVICE);
